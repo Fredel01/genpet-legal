@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliminar cuenta y datos — GenPet</title>
+  <style>
+    :root { --verde: #1B3A2F; --verde2: #2e7d52; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: #1f2a24; background: #f4f7f5; line-height: 1.6;
+    }
+    header {
+      background: var(--verde); color: #cdeed8; padding: 28px 20px; text-align: center;
+    }
+    header h1 { margin: 0; font-size: 22px; letter-spacing: 1px; }
+    header p { margin: 6px 0 0; font-size: 13px; opacity: .85; }
+    main { max-width: 720px; margin: 0 auto; padding: 24px 20px 48px; }
+    .card {
+      background: #fff; border-radius: 14px; padding: 22px 24px; margin: 18px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+    }
+    h2 { font-size: 17px; color: var(--verde); margin-top: 0; }
+    ol, ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    .nota {
+      background: #fff8e1; border-left: 4px solid #f5b301; padding: 12px 16px;
+      border-radius: 8px; font-size: 14px;
+    }
+    a { color: var(--verde2); }
+    code { background: #eef3ef; padding: 2px 6px; border-radius: 5px; font-size: 13px; }
+    footer { text-align: center; font-size: 12px; color: #6b7a72; padding: 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GENPET</h1>
+    <p>Solicitud de eliminación de cuenta y datos</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Eliminar tu cuenta desde la app</h2>
+      <p>La forma más rápida es directamente en la aplicación:</p>
+      <ol>
+        <li>Abre <strong>GenPet</strong> e inicia sesión.</li>
+        <li>Ve a <strong>Ajustes del Sistema</strong>.</li>
+        <li>Baja hasta <strong>“Eliminar mi cuenta”</strong>.</li>
+        <li>Escribe <code>ELIMINAR</code> para confirmar.</li>
+      </ol>
+      <p>El borrado es <strong>inmediato y permanente</strong>.</p>
+    </div>
+
+    <div class="card">
+      <h2>Qué datos se eliminan</h2>
+      <ul>
+        <li>Tu <strong>perfil</strong> (nombre, teléfono, foto) y tu cuenta de acceso (correo).</li>
+        <li>El <strong>token de notificaciones</strong> de tus dispositivos.</li>
+        <li>Los datos de las <strong>fincas que te pertenecen únicamente a ti</strong>
+            (animales, producción, finanzas, tareas, fotos, etc.).</li>
+      </ul>
+      <p class="nota">
+        Si eres dueño de una finca que tiene <strong>otros miembros</strong>, esa finca
+        <strong>no se borra</strong>: su propiedad se transfiere automáticamente a otro
+        administrador para no afectar el trabajo de los demás. Tu acceso personal a esa
+        finca sí se elimina.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>¿No puedes acceder a la app?</h2>
+      <p>
+        Si ya no tienes acceso a tu cuenta, escríbenos para procesar tu solicitud manualmente.
+        Indica el <strong>correo electrónico</strong> con el que te registraste:
+      </p>
+      <p>📧 <a href="mailto:genpetcare.soporte@gmail.com">genpetcare.soporte@gmail.com</a></p>
+      <p>Atenderemos tu solicitud en un plazo máximo de <strong>30 días</strong>.</p>
+    </div>
+  </main>
+
+  <footer>
+    GenPet · Sistema de Gestión Ganadera — genpetcare.com
+  </footer>
+</body>
+</html>
