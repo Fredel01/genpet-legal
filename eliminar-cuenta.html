@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cómo eliminar tu cuenta de GenPet y qué datos se borran." />
   <title>Eliminar cuenta y datos — GenPet</title>
   <style>
     :root { --verde: #1B3A2F; --verde2: #2e7d52; }
@@ -30,7 +31,9 @@
     }
     a { color: var(--verde2); }
     code { background: #eef3ef; padding: 2px 6px; border-radius: 5px; font-size: 13px; }
-    footer { text-align: center; font-size: 12px; color: #6b7a72; padding: 24px; }
+    a:focus-visible { outline: 3px solid var(--verde2); outline-offset: 2px; }
+    footer { text-align: center; font-size: 12px; color: #5b6b63; padding: 24px; }
+    footer nav a { margin: 0 6px; }
   </style>
 </head>
 <body>
@@ -50,6 +53,12 @@
         <li>Escribe <code>ELIMINAR</code> para confirmar.</li>
       </ol>
       <p>El borrado es <strong>inmediato y permanente</strong>.</p>
+      <p class="nota">
+        <strong>Si tienes un plan de pago, cancélalo primero en Google Play</strong>
+        (Pagos y suscripciones → Suscripciones). Eliminar la cuenta o la app no
+        cancela la suscripción. Ver la
+        <a href="politica-reembolsos.html">Política de Reembolsos</a>.
+      </p>
     </div>
 
     <div class="card">
@@ -66,6 +75,15 @@
         administrador para no afectar el trabajo de los demás. Tu acceso personal a esa
         finca sí se elimina.
       </p>
+      <h2 style="margin-top:18px">Qué se conserva</h2>
+      <ul>
+        <li>Los animales que transferiste o vendiste a <strong>otra finca</strong>
+            quedan en esa finca, porque ya forman parte de sus registros.</li>
+        <li>Las copias de respaldo de nuestros proveedores pueden conservar los
+            datos por un tiempo limitado hasta que se renuevan.</li>
+        <li>El registro mínimo de una compra, cuando una obligación legal,
+            contable o fiscal lo exija.</li>
+      </ul>
     </div>
 
     <div class="card">
@@ -74,13 +92,19 @@
         Si ya no tienes acceso a tu cuenta, escríbenos para procesar tu solicitud manualmente.
         Indica el <strong>correo electrónico</strong> con el que te registraste:
       </p>
-      <p>📧 <a href="mailto:genpetcare.soporte@gmail.com">genpetcare.soporte@gmail.com</a></p>
+      <p><span role="img" aria-label="Correo">📧</span> <a href="mailto:genpetcare.soporte@gmail.com">genpetcare.soporte@gmail.com</a></p>
       <p>Atenderemos tu solicitud en un plazo máximo de <strong>30 días</strong>.</p>
     </div>
   </main>
 
   <footer>
-    GenPet · Sistema de Gestión Ganadera — genpetcare.com
+    <nav aria-label="Documentos legales">
+      <a href="politica-privacidad.html">Privacidad</a>·
+      <a href="terminos-condiciones.html">Términos</a>·
+      <a href="politica-reembolsos.html">Reembolsos</a>·
+      <a href="eliminar-cuenta.html">Eliminar cuenta</a>
+    </nav>
+    <p>GenPet · Sistema de Gestión Ganadera — genpetcare.com</p>
   </footer>
 </body>
 </html>
